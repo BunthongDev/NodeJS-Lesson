@@ -1,11 +1,11 @@
-(function () {
+(function (message) {
     const superHero = "Bat-man";
-    console.log(superHero);
+    console.log(message, superHero);
 
-})();
-
-(function () {
+})("Hello");
+ 
+(function (message) {
     const superHero = "Super-man";
-    console.log(superHero);
+    console.log(message, superHero);
 
-})();
+})("Hey");
